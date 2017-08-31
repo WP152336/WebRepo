@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+<style>
+	.bgLightgreen { background-color: lightgreen }
+	.bgTurquoise { background-color: Turquoise }
+	.bgSkyblue { background-color: skyblue }
+	.border { border : 3px solid darkslateblue }
+</style>
+<script>
+	function changecolor(color) { //얘는 this를 넘기면 radiobutton 속성 바꿔서 소용x
+		var c = document.getElementById("container");
+		//c.style.backgroundColor = color;
+		c.setAttribute("class",color); // <div id="container" class="bgLightgreen" ;
+	}
+	function toUpperCase(e) {
+		//var w = document.getElementById("word");
+		//w.value= w.value.toUpperCase();
+		e.value= e.value.toUpperCase();
+	}
+	function addBorder(e) {
+	//	var b = document.getElementById("box");
+	//	b.style.border="3px solid darkslateblue";
+	//	e.style.border="3px solid darkslateblue";
+	e.setAttribute("class","border"); //<p id="box" class="border"
+	}
+	function removeBorder(e) {
+	//	var b = document.getElementById("box");
+	//	b.style.border="";	
+		//e.style.border="";	
+	e.removeAttribute("class");
+	}
+</script>
+</head>
+<body onload="alert('웹 페이지 로딩됨');">
+	<div id="container">
+	<input type="radio" name="color" onclick="changecolor('bgLightgreen');">연두색
+	<input type="radio" name="color" onclick="changecolor('bgTurquoise ');">민트색
+	<input type="radio" name="color" onclick="changecolor('bgSkyblue');">하늘색
+	<br>
+	<input type="text" id="word" onchange="toUpperCase(this);"> 
+	<div id="box" onmouseover="addBorder(this);" onmouseout="removeBorder(this);">
+	마우스를 위로 올려주세요 ^('-')^
+	</div>
+	</div>
+	
+</body>
+</html>
