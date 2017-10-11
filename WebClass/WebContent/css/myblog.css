@@ -1,0 +1,138 @@
+@CHARSET "utf-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+body {
+	background-image: url("../image/back.png");
+}
+
+#navibar ul li {
+	display: inline-block;
+}
+
+#bgm {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+div.container {
+	margin-top: 75px;
+	text-align: center;
+	font-family: 'Jeju Myeongjo', serif;
+}
+
+#menu1 {
+	font-family: 'Jeju Myeongjo', serif;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#menu2 {
+	font-family: 'Jeju Myeongjo', serif;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.rainbow {
+	font-family: 'Jeju Myeongjo', serif;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f22),
+		color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff),
+		color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2),
+		color-stop(1, #f22));
+	background-image: gradient(linear, left top, right top, color-stop(0, #f22),
+		color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff),
+		color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2),
+		color-stop(1, #f22));
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	font-size: 20px;
+}
+
+.tb1 {
+	font-family: 'Jeju Myeongjo', serif;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f22),
+		color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff),
+		color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2),
+		color-stop(1, #f22));
+	background-image: gradient(linear, left top, right top, color-stop(0, #f22),
+		color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff),
+		color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2),
+		color-stop(1, #f22));
+	color: transparent text-align: center;
+	width: 40%;
+	margin: auto;
+	border: 1px solid black;
+}
+
+.tb1 td {
+	border: 1px solid black;
+}
+
+#tong {
+	font-family: 'Jeju Myeongjo', serif;
+	text-align: center;
+}
+
+.mySlides {
+	font-family: 'Jeju Myeongjo', serif;
+	display: none
+}
+
+.w3-left, .w3-right, .w3-badge {
+	font-family: 'Jeju Myeongjo', serif;
+	cursor: pointer
+}
+
+.w3-badge {
+	font-family: 'Jeju Myeongjo', serif;
+	height: 13px;
+	width: 13px;
+	padding: 0
+}
+
+#joinbutton {
+	font-family: 'Jeju Myeongjo', serif;
+	font-size: 16px;
+	background-color: transparent;
+	border: none;
+	color: #007bff;
+}
+
+#tit, #tit1, #tit2 {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Jeju Myeongjo', serif;
+}
+
+#tb2 {
+	font-family: 'Jeju Myeongjo', serif;
+	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cardb, #cardb1, #cardb2, #cardb3, #cardb4 {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#navibar {
+	font-family: 'Jeju Myeongjo', serif;
+	background-image: url("../image/back.png");
+	height: 70px;
+}
+
+.card {
+	margin: 0 auto;
+	text-align: center;
+	width: 800px;
+	width: 20rem;
+	align
+	=center;
+}
+
+#footer, #me {
+	font-family: 'Jeju Myeongjo', serif;
+	text-align: center;
+}
