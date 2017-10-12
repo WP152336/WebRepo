@@ -54,7 +54,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
       System.out.printf("id : %s, pwd : %s\n", id, pwd);
       
      // id, pwd 정합성 체크
-      boolean result = true;
+      boolean result =false;
       
       if(result){
     	  //세션에 사용자 정보를 생성해서 담기

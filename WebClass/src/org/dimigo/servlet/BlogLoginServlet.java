@@ -47,10 +47,15 @@ public class BlogLoginServlet extends HttpServlet {
 		      String pwd = request.getParameter("pwd");
 		      System.out.printf("id : %s, pwd : %s\n", id, pwd);
 		      
-		     // id, pwd 정합성 체크
-		      boolean result = true;
+		      boolean result = false;
+		   
+		      if(id.equals("test@naver.com")){
+		      result = true;}
+		      else{
+		    	  result=false;
+		      }
 		      
-		      if(result){
+			if(result){
 		    	  //세션에 사용자 정보를 생성해서 담기
 		    	 HttpSession session = request.getSession() ;
 		    	 
